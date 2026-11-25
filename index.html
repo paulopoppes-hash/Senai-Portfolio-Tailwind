@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senai - Portfolio Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-xl font-bold text-indigo-600">SENAI Portfolio</div>
+      <div class="flex gap-4">
+        <a href="#" class="px-3 py-2 text-gray-600 hover:text-indigo-600">Início</a>
+        <a href="#" class="px-3 py-2 text-gray-600 hover:text-indigo-600">Projetos</a>
+        <a href="#" class="px-3 py-2 text-gray-600 hover:text-indigo-600">Sobre</a>
+        <a href="#" class="px-3 py-2 text-gray-600 hover:text-indigo-600">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-16 bg-indigo-900 text-white text-center">
+    <h1 class="text-5xl font-bold mb-4">Portfolio de Projetos</h1>
+    <p class="text-lg text-indigo-200 max-w-2xl mx-auto">Desenvolvedor Front-end especializado em interfaces modernas e responsivas.</p>
+    <button class="mt-8 bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold transition">Ver Projetos</button>
+  </section>
+
+  <section class="py-16 max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Meus Projetos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border border-gray-100">
+        <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🌐</div>
+        <h3 class="text-xl font-bold mb-2">Site Institucional</h3>
+        <p class="text-gray-600 text-sm mb-4">Desenvolvido com HTML, CSS e JavaScript puro.</p>
+        <a href="#" class="text-indigo-600 text-sm font-semibold">Ver projeto →</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border border-gray-100">
+        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-4 text-2xl">⚛️</div>
+        <h3 class="text-xl font-bold mb-2">Dashboard React</h3>
+        <p class="text-gray-600 text-sm mb-4">Painel administrativo com componentes reutilizáveis.</p>
+        <a href="#" class="text-indigo-600 text-sm font-semibold">Ver projeto →</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border border-gray-100">
+        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📱</div>
+        <h3 class="text-xl font-bold mb-2">App Mobile</h3>
+        <p class="text-gray-600 text-sm mb-4">Interface responsiva para dispositivos móveis.</p>
+        <a href="#" class="text-indigo-600 text-sm font-semibold">Ver projeto →</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border border-gray-100">
+        <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🛒</div>
+        <h3 class="text-xl font-bold mb-2">E-commerce</h3>
+        <p class="text-gray-600 text-sm mb-4">Loja virtual com carrinho de compras.</p>
+        <a href="#" class="text-indigo-600 text-sm font-semibold">Ver projeto →</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border border-gray-100">
+        <div class="w-16 h-16 bg-pink-100 text-pink-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📝</div>
+        <h3 class="text-xl font-bold mb-2">Blog Pessoal</h3>
+        <p class="text-gray-600 text-sm mb-4">Artigos sobre desenvolvimento web.</p>
+        <a href="#" class="text-indigo-600 text-sm font-semibold">Ver projeto →</a>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border border-gray-100">
+        <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📊</div>
+        <h3 class="text-xl font-bold mb-2">Analytics</h3>
+        <p class="text-gray-600 text-sm mb-4">Dashboard com gráficos e métricas.</p>
+        <a href="#" class="text-indigo-600 text-sm font-semibold">Ver projeto →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Habilidades</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">HTML5</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">CSS3</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">JavaScript</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Tailwind CSS</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">React</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Vue.js</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Git</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">GitHub</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Responsividade</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Flexbox</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Grid</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">API REST</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Node.js</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Express</span>
+        <span class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium">Postman</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t border-gray-200 py-8 text-center text-gray-500">
+    <p>© 2026 Senai Portfolio — Desenvolvido com Tailwind CSS</p>
+  </footer>
+</body>
+</html>
